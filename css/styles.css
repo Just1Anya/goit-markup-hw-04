@@ -48,6 +48,7 @@ header {
 .links:hover {
   color: #404bbf
 }
+
 .links:focus {
   color: #404bbf
 }
@@ -55,7 +56,7 @@ header {
 
 
 
-  
+
 
 /*contacts*/
 nav a {
@@ -85,17 +86,18 @@ address a {
 .link:hover {
   color: #404bbf;
 }
+
 .link:focus {
   color: #404bbf;
 }
 
 /*section-1*/
-section.section-1 {
+section.section-one {
   background: var(--navyblue, #2e2f42);
 
 }
 
-h1.descr-h1 {
+h1.descr-h-one {
   color: var(--white, #FFF);
   text-align: center;
   line-height: 1.07;
@@ -121,6 +123,7 @@ h1.descr-h1 {
 button:hover {
   background-color: #404BBF;
 }
+
 button:focus {
   background-color: #404BBF;
 }
