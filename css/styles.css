@@ -6,7 +6,7 @@ body {
 
 /*top-line*/
 header {
-  border-bottom: 1px solid var(--cornflower, #E7E9FC);
+
   background: var(--white, #FFF);
 
 }
@@ -166,7 +166,6 @@ button:focus {
 
 .stud {
   color: var(--navyblue, #2E2F42);
-
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -177,7 +176,6 @@ button:focus {
 
 .stud-text {
   color: var(--slate, #434455);
-
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -220,7 +218,6 @@ h2 {
 .names-team {
   color: var(--navyblue, #2E2F42);
   text-align: center;
-
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -231,7 +228,6 @@ h2 {
 .descr-team {
   color: var(--slate, #434455);
   text-align: center;
-
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -242,7 +238,6 @@ h2 {
 .names-shop {
   color: var(--navyblue, #2E2F42);
   text-align: center;
-
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -253,7 +248,6 @@ h2 {
 .descr-shop {
   color: var(--slate, #434455);
   text-align: center;
-
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
