@@ -123,12 +123,12 @@ address a {
 }
 
 /*section-1*/
-.section-1 {
+section.section-1 {
   background: var(--navyblue, #2e2f42);
 
 }
 
-.descr-h1 {
+h1.descr-h1 {
   color: var(--white, #FFF);
   text-align: center;
   line-height: 1.07;
@@ -200,11 +200,11 @@ button:focus {
   background-color: #FFFFFF;
 }
 
-.section-three {
+section.section-three {
   background: var(--cloud, #F4F4FD);
 }
 
-.our-team-class {
+h2.our-team-class {
   color: var(--navyblue, #2E2F42);
   text-align: center;
   font-size: 36px;
