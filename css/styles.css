@@ -45,9 +45,11 @@ header {
 
 }
 
-.links:hover 
+.links:hover {
+  color: #404bbf
+}
 .links:focus {
-  color: #404bbf;
+  color: #404bbf
 }
 
 
@@ -80,7 +82,9 @@ address a {
 
 }
 
-.link:hover 
+.link:hover {
+  color: #404bbf;
+}
 .link:focus {
   color: #404bbf;
 }
@@ -114,7 +118,9 @@ h1.descr-h1 {
   font-weight: 500;
 }
 
-button:hover 
+button:hover {
+  background-color: #404BBF;
+}
 button:focus {
   background-color: #404BBF;
 }
