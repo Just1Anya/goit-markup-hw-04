@@ -35,7 +35,7 @@ header {
   text-decoration: none;
 }
 
-.links-1 {
+.links {
   color: var(--navyblue, #2E2F42);
   font-size: 16px;
   font-style: normal;
@@ -45,49 +45,15 @@ header {
 
 }
 
-.links-1:hover {
+.links:hover 
+.links:focus {
   color: #404bbf;
 }
 
-.links-1:focus {
-  color: #404bbf;
-}
 
-.links-2 {
-  color: var(--navyblue, #2E2F42);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
 
-}
 
-.links-2:hover {
-  color: #404bbf;
-}
-
-.links-2:focus {
-  color: #404bbf;
-}
-
-.links-3 {
-  color: var(--navyblue, #2E2F42);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-
-}
-
-.links-3:hover {
-  color: #404bbf;
-}
-
-.links-3:focus {
-  color: #404bbf;
-}
+  
 
 /*contacts*/
 nav a {
@@ -114,10 +80,7 @@ address a {
 
 }
 
-.link:hover {
-  color: #404bbf;
-}
-
+.link:hover 
 .link:focus {
   color: #404bbf;
 }
@@ -151,10 +114,7 @@ h1.descr-h1 {
   font-weight: 500;
 }
 
-button:hover {
-  background-color: #404BBF;
-}
-
+button:hover 
 button:focus {
   background-color: #404BBF;
 }
@@ -184,21 +144,11 @@ button:focus {
 
 /*section 3*/
 /*our team*/
-.team-item-1 {
+.team-item {
   background-color: #FFFFFF;
 }
 
-.team-item-2 {
-  background-color: #FFFFFF;
-}
 
-.team-item-3 {
-  background-color: #FFFFFF;
-}
-
-.team-item-4 {
-  background-color: #FFFFFF;
-}
 
 section.section-three {
   background: var(--cloud, #F4F4FD);
