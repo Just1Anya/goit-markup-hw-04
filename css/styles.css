@@ -2,6 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+
+}
+
+ul {
+  list-style: none;
 }
 
 /*top-line*/
@@ -43,6 +48,7 @@ header {
   line-height: 24px;
   letter-spacing: 0.02em;
 
+
 }
 
 .links:hover {
@@ -61,6 +67,7 @@ header {
 /*contacts*/
 nav a {
   text-decoration: none;
+
 
 }
 
