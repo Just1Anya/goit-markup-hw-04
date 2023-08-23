@@ -91,13 +91,6 @@ links-items {
 }
 
 /*contacts*/
-.contact-items {
-  display: flex;
-  gap: 40px;
-}
-
-
-
 .contacts-list {
   display: flex;
   gap: 40px;
