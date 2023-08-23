@@ -46,10 +46,15 @@ ul {
   background: var(--white, #FFF);
   flex-shrink: 0;
 }
-
+#cintainer-header {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px
+}
 
 .container-header {
   display: flex;
+  margin: 0 auto;
 
   
 }
@@ -119,6 +124,7 @@ ul {
 
   display: flex;
  margin: 0 auto;
+ align-items: center;
 
 }
 
@@ -286,11 +292,10 @@ button:focus {
 }
 
 .our-team-line {
-  display: inline-flex;
-  gap: 32px;
+  display: flex;
+  gap: 24px;
   padding: 0 0 32px 0 ;
 
- 
 }
 
 .text-section-three {
