@@ -51,11 +51,10 @@ ul {
   /*width: 1158px;*/
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
-  width: 1158px;
+  
 }
 
-.container {
+.container-header {
   display: flex;
   margin: 0 auto;
   width: 1158px;
