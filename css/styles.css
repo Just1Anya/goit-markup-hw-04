@@ -50,7 +50,8 @@ ul {
 
 .container-header {
   display: flex;
-  margin-bottom: 72px;
+
+  
 }
 
 .logo {
@@ -65,6 +66,7 @@ ul {
   text-decoration: none;
   padding: 24px 0;
   margin-right: 76px;
+  
 }
 
 .studio-logo {
@@ -77,7 +79,7 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  padding-right: 0;
+  
 }
 
 .links:hover,
@@ -85,15 +87,17 @@ ul {
   color: #404bbf;
 }
 
-links-items {
-  padding: 24px 0;
-
-}
 
 /*contacts*/
+.header-address {
+  display: flex;
+ 
+}
+
 .contacts-list {
   display: flex;
   gap: 40px;
+  margin-left: 300px;
 }
 
 
@@ -102,26 +106,26 @@ links-items {
   color: var(--slate, #434455);
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   text-decoration: none;
-
-}
+  padding: 24px 0;
+  
+  }
 
 
 .header-nav {
-  align-items: center;
+
   display: flex;
-  margin: 0 auto;
+ margin: 0 auto;
 
 }
 
 .links-items-lists {
   display: flex;
   gap: 40px;
-  padding-left: 76px;
-  padding-right: 250px;
+  
 
 }
 
@@ -220,10 +224,6 @@ button:focus {
   background-color: #ffffff;
 }
 
-/*.mini-wrapp {
-  width: calc((100% - 72px) / 4);
-}*/
-
 .stud {
   color: var(--navyblue, #2E2F42);
   font-size: 20px;
@@ -286,18 +286,16 @@ button:focus {
 }
 
 .our-team-line {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  margin: auto;
+  display: inline-flex;
+  gap: 32px;
+  padding: 0 0 32px 0 ;
+
+ 
 }
 
 .text-section-three {
-  margin: auto;
   padding: 32px 0;
-
-
-
+ 
 }
 
 .team-item {
@@ -307,17 +305,12 @@ button:focus {
   box-shadow: 0px 1px 1px 0px #2E2F4229;
   box-shadow: 0px 1px 6px 0px #2E2F4214;
   width: calc((100% - 72px) / 4);
-
-  display: block;
+  
 
 }
-
-
 #container-section-three {
   background: var(--cloud, #F4F4FD);
 }
-
-
 .our-team-class {
   color: var(--navyblue, #2E2F42);
   text-align: center;
@@ -328,6 +321,7 @@ button:focus {
   text-transform: capitalize;
   line-height: 1.11;
   margin-bottom: 72px;
+  
 }
 
 h2 {
@@ -371,16 +365,13 @@ section {
 .section-four-lines {
   display: flex;
   flex-wrap: wrap;
-  /*gap: 15px;*/
   padding: 72px 0 120px 0;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-/*.section-four-lines,*/
 .img-section-four {
   display: block;
-
 }
 
 
@@ -416,12 +407,9 @@ section {
 
 }
 
-
 #container-footer {
   flex-shrink: 0;
-
 }
-
 
 .logo-footer {
   color: var(--iris, #4D5AE5);
