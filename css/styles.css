@@ -237,7 +237,7 @@ button:focus {
   background: var(--cloud, #F4F4FD);
   padding-top: 120px;
   padding-bottom: 120px;
-  padding: 0 15px;
+
   margin: 0 auto;
   flex-shrink: 0;
   text-align: center;
@@ -295,7 +295,7 @@ button:focus {
 
  .our-team-class  {
   padding-bottom: 72px;
-  margin: 0 auto;
+  margin: 0;
  }
 /*h2
 /*.our-team-class {
