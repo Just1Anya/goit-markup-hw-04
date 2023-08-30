@@ -456,6 +456,8 @@ section {
 .social-links-footer {
   display: inline-flex;
   align-items: flex-start;
+  margin-right: 692px;
+  gap: 16px;
 
 }
 
@@ -464,12 +466,12 @@ section {
   width: 208px;
   height: 80px;
   flex-shrink: 0;
-  margin-left: 540px;
+
 }
 
 .icon-main-footer {
   width: 24px;
   height: 34px;
   flex-shrink: 0;
-  gap: 16px;
+
 }
