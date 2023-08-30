@@ -488,6 +488,9 @@ section {
   align-items: center;
   justify-content: center;
   gap: 16px;
+  background-color: #4D5AE5;
+  width: 40px;
+  height: 40px;
 }
 
 .footer-icons-text {
@@ -498,9 +501,7 @@ section {
   letter-spacing: 0.32px;
   color: var(--white, #FFF);
   padding-bottom: 16px;
-  background-color: #4D5AE5;
-  width: 40px;
-  height: 40px;
+
 }
 
 /*.footer-icons {
