@@ -323,8 +323,9 @@ button:focus {
 
 .social-links {
   display: flex;
-
-  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 
 
 }
@@ -448,7 +449,18 @@ section {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
-
-  margin-left: 540px;
   color: var(--white, #FFF);
+}
+
+.social-links-footer {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+
+.footer-icons {
+  width: 208px;
+  height: 80px;
+  flex-shrink: 0;
 }
