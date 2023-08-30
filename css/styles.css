@@ -322,10 +322,12 @@ button:focus {
 
 .social-links {
   display: flex;
-  gap: 8px;
+  gap: 24px;
   flex-shrink: 0;
-  align-self: flex-end;
+  align-self: center;
 }
+
+.icon-main {}
 
 /*section 4*/
 section {
