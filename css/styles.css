@@ -157,6 +157,7 @@ ul {
     url(../images/people/people-office.png),
     lightgray 0px -167.766px / 100% 139.922% no-repeat;
 
+
 }
 
 .descr-h-one {
@@ -325,6 +326,7 @@ button:focus {
   gap: 24px;
   flex-shrink: 0;
   align-self: center;
+  width: 232px;
 }
 
 .icon-main {}
