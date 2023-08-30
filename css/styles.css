@@ -450,12 +450,13 @@ section {
   line-height: 24px;
   letter-spacing: 0.32px;
   color: var(--white, #FFF);
+  padding-bottom: 16px;
 }
 
 .social-links-footer {
   display: inline-flex;
   align-items: flex-start;
-  gap: 16px;
+
 }
 
 
@@ -463,4 +464,12 @@ section {
   width: 208px;
   height: 80px;
   flex-shrink: 0;
+  margin-left: 540px;
+}
+
+.icon-main-footer {
+  width: 24px;
+  height: 34px;
+  flex-shrink: 0;
+  gap: 16px;
 }
