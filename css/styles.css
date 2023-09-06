@@ -62,6 +62,7 @@ ul {
     0px 1px 6px rgba(46, 47, 66, 0.08);
   max-width: 1440px;
   margin: 0 auto;
+
 }
 
 
@@ -84,7 +85,7 @@ ul {
   text-decoration: none;
   padding: 24px 0;
   margin-right: 76px;
-  margin-left: auto;
+
 }
 
 .studio-logo {
@@ -149,7 +150,7 @@ ul {
   display: flex;
   margin: 0 auto;
   align-items: center;
-  margin-right: 332px;
+  /*margin-right: 332px;*/
 }
 
 .links-items-lists {
@@ -414,6 +415,7 @@ section {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
+  cursor: pointer;
 }
 
 .section-four-lines {
@@ -422,6 +424,7 @@ section {
   padding: 72px 0 120px 0;
   column-gap: 24px;
   row-gap: 48px;
+
 
 
 }
@@ -617,7 +620,213 @@ section {
   flex-shrink: 0;
   fill: #F4F4FD;
   gap: 16px;
+}
 
 
+.form-footer {
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #FFF);
+  box-shadow:
+    0px 4px 4px 0px,
+    rgba(0, 0, 0, 0.15);
+  width: 264px;
+  height: 40px;
+  flex-shrink: 0;
+  background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.text-footer-sub {
+  margin-bottom: 16px;
+  color: var(--WHITE, #fff);
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  margin-right: 24px;
+}
+
+::-webkit-input-placeholder {
+  color: var(--WHITE, #FFF);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.48px;
+  width: 36px;
+  height: 24px;
+  padding: 8px 212px 8px 16px;
+}
+
+.label-footer {
+
+  margin-right: 24px;
+}
+
+.button-footer {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: var(--IRIS, #4D5AE5);
+  width: 165px;
+  height: 40px;
+  margin-right: 159px;
+  margin-top: 12.5%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.button-footer:hover,
+.button-footer:focus {
+  background-color: #4D5AE5;
+
+}
+
+
+.telega-footer {
+  fill: #FFF;
+  background-color: #4D5AE5;
+}
+
+.text-footer-btn {
+  color: var(--WHITE, #FFF);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+height: 58px;
+}
+
+.input-modal {
+width: 360px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid var(--NAVY-BLUE-modal,
+ rgba(46, 47, 66, 0.40)
+ );
+}
+.input-modal-textarea {
+  
+  width: 360px;
+height: 120px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid var(--NAVY-BLUE-modal,
+ rgba(46, 47, 66, 0.40)
+ );
+}
+
+
+/*.modal {
+ display: flex;
+  
+flex-shrink: 0;
+border-radius: 4px;
+}*/
+.modal {
+  
+  
+}
+
+.form-group {
+  display: flex;
+width: 100%;
+flex-direction: column;
+align-items:center;
+gap: 8px;
+border-radius: 4px;
+width: 408px;
+height: 584px;
+margin: 0 auto;
+background: var(--DAIRY, #FCFCFC);
+}
+
+.group-title {
+  color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
+width: 360px;
+height: 24px;
+padding-top: 72px;
+margin-bottom: 34px;
+}
+.form-label {
+  display: flex;
+  flex-direction: column;
+  
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.04em;
+text-align: left;
+color:#8E8F99;
+
+
+}
+.privacy {
+  color: #4D5AE5;
+}
+.icon-close-close {
+align-self:flex-end;
+width: 24px;
+height: 24px;
+border-radius: 4px;
+border-radius: 50%;
+color:#2E2F42;
+margin-right: 24px;
+}
+
+
+.icon-close-close:hover,
+.icon-close-close:focus {
+  background-color: #E7E9FC
+}
+.privacy-text {
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.04em;
+text-align: left;
+color:#8E8F99;
+}
+.btn-send {
+  display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.send-btn {
+  width: 105px;
+  color: var(--WHITE, #FFF);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.64px;
 
 }
