@@ -696,6 +696,9 @@ section {
   fill: #FFF;
   background-color: #4D5AE5;
 }
+.is-open {
+  opacity: 1;
+}
 
 .text-footer-btn {
   color: var(--WHITE, #FFF);
@@ -734,16 +737,13 @@ border: 1px solid var(--NAVY-BLUE-modal,
 }
 
 
-/*.modal {
+.modal {
  display: flex;
   
 flex-shrink: 0;
 border-radius: 4px;
-}*/
-.modal {
-  
-  
 }
+
 
 .form-group {
   display: flex;
