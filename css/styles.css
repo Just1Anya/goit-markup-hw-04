@@ -118,8 +118,7 @@ ul {
   color: #404bbf;
 }
 
-.links:hover,
-.links:focus {
+.links:hover.links:focus {
   color: #404bbf;
 }
 
@@ -155,8 +154,7 @@ ul {
   gap: 40px;
 }
 
-.link:hover,
-.link:focus {
+.link:hover.link:focus {
   color: #404bbf;
 }
 
@@ -204,7 +202,7 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-button:hover,
+button:hover
 button:focus {
   background-color: #404BBF;
 }
@@ -371,8 +369,7 @@ button:focus {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-main:hover,
-.icon-main:focus {
+.icon-main:hover.icon-main:focus {
   background-color: #404bbf;
 }
 
@@ -442,8 +439,7 @@ section {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-four-content:hover,
-.section-four-content:hover .overlay {
+.section-four-content:hover.section-four-content:hover .overlay {
   transform: translateY(0);
   opacity: 1;
   box-shadow:
@@ -513,7 +509,7 @@ section {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  margin-left: 156px;
+ 
   margin-bottom: 16px;
 }
 
@@ -537,13 +533,14 @@ section {
   letter-spacing: 0.32px;
   line-height: 1.5;
   width: 264px;
-  margin-left: 156px;
+  
 }
 
 .social-links-footer {
   display: flex;
   justify-content: space-between;
   gap: 16px;
+  margin-right: 80px;
 }
 
 .parts-links-footer {
@@ -567,8 +564,7 @@ section {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.path-links-footer:hover,
-.path-links-footer:focus {
+.path-links-footer:hover.path-links-footer:focus {
   background-color: #31d0aa;
 }
 
@@ -581,11 +577,10 @@ section {
   letter-spacing: 0.02em;
   color: var(--white, #FFF);
   margin-bottom: 16px;
+
 }
 
-.container-foot {
-  margin-right: 45%;
-}
+
 
 .icon-main-footer {
   width: 24px;
@@ -624,9 +619,7 @@ section {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
- 
-
-}
+ }
 
 ::-webkit-input-placeholder {
   color: var(--WHITE, #FFF);
@@ -643,12 +636,7 @@ section {
 .label-footer {
   display: flex;
   gap: 24px;
-  
-}
-
-.label-label-footer  {
-
-}
+  }
 
 .button-footer {
   display: flex;
@@ -660,16 +648,14 @@ section {
   background: var(--IRIS, #4D5AE5);
   min-width: 165px;
   height: 40px;
-  
-  
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   border: none;
+  margin-right: 159px;
 }
 
-.button-footer:hover,
-.button-footer:focus {
+.button-footer:hover.button-footer:focus {
   background-color: #4D5AE5;
 
 }
@@ -763,8 +749,7 @@ section {
   letter-spacing: 0.04em;
   outline: transparent;
   padding: 8px 16px;
-  resize: none;
-  display: block;
+  
   font-size: 12px;
   line-height: 1.17;
   color: rgba(46, 47, 66, 0.4);
@@ -774,8 +759,9 @@ section {
 
 .input-modal-textarea::placeholder {
   color: rgba(64, 64, 64, 0.3);
-  max-width: 57px;
+  width: 57px;
   height: 14px;
+  display: flex;
   
 }
 
