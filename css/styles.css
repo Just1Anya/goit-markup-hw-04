@@ -660,7 +660,8 @@ section {
   letter-spacing: 0.04em;
 }
 
-.button-footer:hover.button-footer:focus {
+.button-footer:hover,
+.button-footer:focus {
   background-color: #4D5AE5;
 
 }
@@ -769,11 +770,11 @@ section {
   margin-bottom: 24px
 }
 
-.input-checkbox-wrapper:checked+.review-form-checkbox-label>.review-form-own-checkbox {
+/*.input-checkbox-wrapper:checked+.review-form-checkbox-label>.review-form-own-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
-}
+}*/
 
 .review-form-own-checkbox {
   display: inline-flex;
@@ -869,10 +870,14 @@ section {
 
 .icon-close-close:hover {
   fill: #ffffff;
+  background-color: #404bbf; 
+  border: none;
 }
 
 .icon-close-close:focus {
   fill: #ffffff;
+  background-color: #404bbf; 
+  border: none;
 }
 
 .close-btn-icon {
@@ -905,7 +910,8 @@ section {
   line-height: 1.17;
 }
 
-.btn-send-submit.text-btn-submit  {
+.btn-send-submit
+  {
   padding: 16px 32px;
   display: block;
   align-items: center;
@@ -921,7 +927,8 @@ section {
 
 }
 
-.btn-send-submit:hover.btn-send-submit:focus {
+.btn-send-submit:hover,
+.btn-send-submit:focus {
   background: var(--IRIS, #4D5AE5);
 }
 
