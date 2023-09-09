@@ -783,6 +783,7 @@ section {
   cursor: pointer;
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  
 }
 
 
@@ -803,7 +804,7 @@ section {
 }
 
 .single-form-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px 
 }
 
 .form-label {
@@ -843,7 +844,7 @@ section {
 
 .input-checkbox-wrapper+.privacy-text>.review-form-own-checkbox {
   background-color: #404bbf;
-  fill: #ffffff;
+  fill:#F4F4FD;
   border: none;
 }
 /*.input-checkbox-wrapper:checked+.review-form-own-checkbox {
