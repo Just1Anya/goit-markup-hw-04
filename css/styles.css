@@ -786,7 +786,11 @@ section {
   cursor: pointer;
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
-
+}
+.review-form-own-checkbox-icon {
+  
+  border: none;
+  fill: #F4F4FD;
 }
 
 .group-title {
@@ -901,7 +905,7 @@ section {
   line-height: 1.17;
 }
 
-.btn-send-submit {
+.btn-send-submit.text-btn-submit  {
   padding: 16px 32px;
   display: block;
   align-items: center;
