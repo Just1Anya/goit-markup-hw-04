@@ -841,7 +841,7 @@ section {
   color: #4d5ae5;
 }
 
-.input-checkbox-wrapper+.privacy-text>.review-form-own-checkbox {
+.input-checkbox-wrapper:checked+.privacy-text>.review-form-own-checkbox {
   background-color: #404bbf;
   fill: #ffffff;
   border: none;
