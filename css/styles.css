@@ -846,6 +846,11 @@ section {
   fill: #ffffff;
   border: none;
 }
+.input-checkbox-wrapper:checked+.review-form-own-checkbox {
+  background-color: #404bbf;
+  fill: #ffffff;
+  border: none;
+}
 
 .icon-close-close {
   line-height: 0;
