@@ -882,7 +882,8 @@ section {
 .close-btn-icon {
   color: #2E2F42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  width: 8px;
+  height: 8px;
 }
 
 .close-btn-icon:hover {
@@ -924,7 +925,7 @@ section {
 
 }
 
-.btn-send-submit:hover.btn-send:focus {
+.btn-send-submit:hover.btn-send-submit:focus {
   background: var(--IRIS, #4D5AE5);
 }
 
