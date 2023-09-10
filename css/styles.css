@@ -817,11 +817,6 @@ section {
 
   margin-bottom: 24px
 }
-
-
-
-
-
 .group-title {
   color: var(--NAVY-BLUE, #2E2F42);
   text-align: center;
@@ -872,13 +867,15 @@ section {
   color: #4d5ae5;
 }
 
-.input-checkbox-wrapper+.privacy-text>.review-form-own-checkbox {
+.input-checkbox-wrapper:checked+.privacy-text>.review-form-own-checkbox {
   background-color: #404bbf;
   fill:#F4F4FD;
   border: none;
 }
 
 .review-form-own-checkbox {
+  fill: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -889,9 +886,8 @@ section {
   border-radius: 2px;
   cursor: pointer;
   margin-right: 8px;
-  /*fill: transparent;
-  border: 1px solid rgba(46, 47, 66, 0.4);*/
-  }
+  
+}
 
 
 .review-form-own-checkbox-icon {
