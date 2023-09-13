@@ -8,9 +8,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  
-  
+  margin: 0;
+  display: block;
 }
+
 
 button {
   cursor: pointer;
@@ -64,7 +65,7 @@ ul {
 
 .container-header {
   display: flex;
-  /*margin: 0 auto;*/
+  
   width: 1158px;
   padding: 0 15px;
 }
@@ -694,6 +695,7 @@ section {
 }
 
 .backdrop {
+  display: none;
   height: 100%;
   width: 100%;
   position: fixed;
