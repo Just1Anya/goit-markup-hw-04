@@ -23,6 +23,47 @@ button {
   margin: auto;
 }
 
+@media (min-width: 320px)  {
+  .container {
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo {
+    display: flex;
+    align-items:center;
+    padding: 0;
+    margin: 0;
+    }
+    .burger-btn {
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      margin-left: 149px;
+      padding: 0px;
+      border: none;
+      background-color: transparent;
+      color: #2F2F37;
+      cursor: pointer;
+  }
+}
+
+@media  (min-width: 768px)  {
+    .container {
+      
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .logo {
+      display: flex;
+      align-items:center;
+      }
+  
+  
+  }
+
 h1,
 h2,
 h3,
@@ -63,6 +104,7 @@ ul {
   margin: 0 auto;
 }
 
+
 .container-header {
   display: flex;
   
@@ -81,12 +123,9 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   padding: 24px 0;
-  /*margin-right: 76px;*/
-
-
-}
-
-.studio-logo {
+  }
+  
+  .studio-logo {
   color: var(--navyblue, #2E2F42);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -144,10 +183,11 @@ ul {
 
 .header-nav {
   display: flex;
-  /*margin: 0 auto;*/
+  
   align-items: center;
   margin-right: 332px;
 }
+
 
 .links-items-lists {
   display: flex;
@@ -253,6 +293,7 @@ button:hover button:focus {
   padding: 0;
 
 }
+
 
 .stud {
   color: var(--navyblue, #2E2F42);
